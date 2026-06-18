@@ -10,7 +10,7 @@ variable "cluster_name" {
 
 variable "cluster_version" {
   description = "Kubernetes version"
-  default     = "1.28"
+  default     = "1.35"
 }
 
 variable "instance_type" {
